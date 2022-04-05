@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj": {}
+    "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj": {}
   },
   "projects": {
-    "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj": {
+    "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
         "projectName": "ChapterWebApi",
-        "projectPath": "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
         "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\obj\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [

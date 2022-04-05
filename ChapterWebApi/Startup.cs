@@ -27,9 +27,16 @@ namespace ChapterWebApi
         {
             services.AddControllers();
 
+            services.AddSwaggerGen(c =>
+                {
+                    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Version = "v1", Title = "Chapter.WebApi" });
+                });
             services.AddScoped<ChapterContext, ChapterContext>();
 
             services.AddTransient<LivroRepository, LivroRepository>();
+
+            services.AddTransient<UsuarioRepository, UsuarioRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,6 +52,13 @@ namespace ChapterWebApi
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Chapter.WebApi");
+                c.RoutePrefix = String.Empty;
+            });
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
