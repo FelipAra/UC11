@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj": {}
+    "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj": {
+    "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
+        "projectUniqueName": "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
         "projectName": "ChapterWebApi",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
+        "projectPath": "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
         "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\obj\\",
+        "outputPath": "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",

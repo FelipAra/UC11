@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mkctybRE5en3HENyUsEvBbKwxVQ3S3chf/Jt/FJjvBci7/uMp5Jbhiv9Q/88aFedEwhQ6Lm2nItGgsfDHsyR1w==",
+  "dgSpecHash": "7ddJtz9IBYMWbLMzhHWL+Hw/Anah0rXMzWvexbi5XBdm5tV6rlAb4xXH/dc7fG/nx0I/ttP/Iv8mA0QFn3buVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Felipe\\Desktop\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
+  "projectFilePath": "D:\\Uc11 Senai\\Chapter\\ChapterWebApi\\ChapterWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Felipe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Felipe\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
