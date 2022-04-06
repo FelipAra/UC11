@@ -1,5 +1,6 @@
 ﻿using ChapterWebApi.Models;
 using ChapterWebApi.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -10,6 +11,8 @@ namespace ChapterWebApi.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
+
+    [Authorize]
     public class LivrosController : ControllerBase
     {
         private readonly LivroRepository _livroRepository;

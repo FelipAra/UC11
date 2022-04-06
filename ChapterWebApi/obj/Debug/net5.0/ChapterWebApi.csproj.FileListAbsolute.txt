@@ -210,3 +210,10 @@ C:\Users\Felipe\Desktop\Chapter\ChapterWebApi\obj\Debug\net5.0\ChapterWebApi.Vie
 C:\Users\Felipe\Desktop\Chapter\ChapterWebApi\obj\Debug\net5.0\ChapterWebApi.csproj.CopyComplete
 C:\Users\Felipe\Desktop\Chapter\ChapterWebApi\obj\Debug\net5.0\ChapterWebApi.genruntimeconfig.cache
 C:\Users\Felipe\Desktop\Chapter\ChapterWebApi\obj\Debug\net5.0\ref\ChapterWebApi.dll
+D:\Uc11 Senai\Chapter\ChapterWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Uc11 Senai\Chapter\ChapterWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Uc11 Senai\Chapter\ChapterWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Uc11 Senai\Chapter\ChapterWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Uc11 Senai\Chapter\ChapterWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Uc11 Senai\Chapter\ChapterWebApi\bin\Debug\net5.0\WebMotions.Fake.Authentication.JwtBearer.dll
+D:\Uc11 Senai\Chapter\ChapterWebApi\obj\Debug\net5.0\ChapterWebApi.MvcApplicationPartsAssemblyInfo.cs

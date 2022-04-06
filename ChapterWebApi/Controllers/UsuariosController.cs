@@ -10,11 +10,11 @@ namespace ChapterWebApi.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-    public class UsuarioController : ControllerBase
+    public class UsuariosController : ControllerBase
     {
         private readonly UsuarioRepository _usuarioRepository;
 
-        public UsuarioController(UsuarioRepository usuarioRepository)
+        public UsuariosController(UsuarioRepository usuarioRepository)
         {
             _usuarioRepository = usuarioRepository;
         }
@@ -38,7 +38,7 @@ namespace ChapterWebApi.Controllers
         {
             try
             {
-                Usuario UsuarioProcurado = _usuarioRepository.BuscarPorId(id);
+                Usuarios UsuarioProcurado = _usuarioRepository.BuscarPorId(id);
 
                 if (UsuarioProcurado == null)
                 {
@@ -54,7 +54,7 @@ namespace ChapterWebApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastrar(Usuario usuario)
+        public IActionResult Cadastrar(Usuarios usuario)
         {
             try
             {
@@ -70,7 +70,7 @@ namespace ChapterWebApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Atualizar(int id, Usuario usuario)
+        public IActionResult Atualizar(int id, Usuarios usuario)
         {
             try
             {

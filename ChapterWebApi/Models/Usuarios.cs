@@ -1,6 +1,6 @@
 ﻿namespace ChapterWebApi.Models
 {
-    public class Usuario
+    public class Usuarios
     {
         public int Id { get; set; }
         public string Email { get; set; }

@@ -13,26 +13,26 @@ namespace ChapterWebApi.Repositories
         {
             _context = context;
         }
-        public List<Usuario> Listar()
+        public List<Usuarios> Listar()
         {
             return _context.Usuarios.ToList();
         }
 
-        public Usuario BuscarPorId(int id)
+        public Usuarios BuscarPorId(int id)
         {
             return _context.Usuarios.Find(id);
         }
 
-        public void Cadastrar(Usuario usuario)
+        public void Cadastrar(Usuarios usuario)
         {
             _context.Usuarios.Add(usuario);
 
             _context.SaveChanges();
         }
 
-        public void Atualizar(int id, Usuario usuario)
+        public void Atualizar(int id, Usuarios usuario)
         {
-            Usuario usuarioBuscado = _context.Usuarios.Find(id);
+            Usuarios usuarioBuscado = _context.Usuarios.Find(id);
 
             if (usuarioBuscado != null)
             {
@@ -47,13 +47,13 @@ namespace ChapterWebApi.Repositories
 
         public void Deletar(int id)
         {
-            Usuario usuarioBuscado = _context.Usuarios.Find(id);
+            Usuarios usuarioBuscado = _context.Usuarios.Find(id);
 
             _context.Usuarios.Remove(usuarioBuscado);
 
             _context.SaveChanges();
         }
-        public Usuario Login(string email, string senha)
+        public Usuarios Login(string email, string senha)
         {
             return _context.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
         }
